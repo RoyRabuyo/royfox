@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image: url('sheshh.jpg');
+}
+body{
+    margin-top: 15%;
+    background-color: #333;
+}
+
+.main {
+    width: 80%;
+    margin: 50px auto;
+    background-color: pink;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #555;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+div {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.back{
+    list-style-type: none;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+
+}
+
+li:hover {
+    background-color: #e0e0e0;
+}
